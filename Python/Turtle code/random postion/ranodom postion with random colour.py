@@ -1,0 +1,14 @@
+import turtle as t
+import random as r
+ts = t.Screen()
+ts.setup (width=1700, height=1032, startx=0, starty=0)
+t.colormode(255)
+ts.bgcolor('black')
+t.speed(2)
+def move(x, y):
+	t.goto(r.randint(-850,850), r.randint(-512,520))
+	t.pencolor(r.randint(0, 255), r.randint(0,255), r.randint(0, 255))
+	
+ts.onscreenclick(move)
+print("press enter to exit program")
+enter = input()

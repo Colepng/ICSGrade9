@@ -1,0 +1,10 @@
+import turtle as t
+ts = t.Screen()
+t.fd(200)
+t.lt(135)
+t.fd(100)
+t.lt(180)
+t.fd(100)
+t.rt(90)
+t.fd(100)
+t.exitonclick()

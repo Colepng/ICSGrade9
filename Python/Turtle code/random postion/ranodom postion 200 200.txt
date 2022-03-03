@@ -1,0 +1,4 @@
+import turtle as t
+def move(x, y):
+	t.goto(200, 200)
+ts.onscreenclick(move)
