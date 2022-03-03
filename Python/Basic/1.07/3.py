@@ -1,0 +1,7 @@
+province = input("Please input input your province")
+city = input("Please input your city")
+street_number = input("Please input your street_number")
+street_name = input("Please input your street_name")
+postal_code = input("Please input your postal code")
+print("\t\t", province, city)
+print("\t\t", street_number, street_name, postal_code)
