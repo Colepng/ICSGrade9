@@ -1,0 +1,5 @@
+num = int(input("Please input a numeator"))
+den = int(input("Please input a denominator"))
+pro_frac_whole = int(num//den)
+pro_frac_frac = int(num%den)
+print(num,"/", den, "is equivalent to", pro_frac_whole, "and", pro_frac_frac, "/", den)
