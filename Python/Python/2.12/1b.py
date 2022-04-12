@@ -9,14 +9,14 @@ if num1 == num2:
         num1_2 = True
 elif num2 == num3:
     num2_3 = True
-elif num1 == num3
+elif num1 == num3:
     num1_3 = True
 
     
 if not all_num:
 
 
-    if not num1_2
+    if not num1_2:
         if num1 > num2:
             if num1 > num3:
                 print("Num 1 is the largest")
@@ -29,4 +29,4 @@ if not all_num:
             else:
                 print("Num 3 is the largest")
         else:
-            print("The smallest spot it tied with num1 and
+            print("The smallest spot it tied with num1 and num2")
