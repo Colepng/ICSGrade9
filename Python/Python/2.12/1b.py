@@ -1,32 +1,16 @@
-num1 = 6
-num2 = 7
-num3 = 2
+num1 = 23902
+num2 = 343453
+num3 = 3453534532345325
 
-if num1 == num2:
-    if num1 == num3:
-        all_num = True
+if num1 > num2:
+    if num1 > num3:
+        print("Num 1 is the largest")
     else:
-        num1_2 = True
-elif num2 == num3:
-    num2_3 = True
-elif num1 == num3:
-    num1_3 = True
+        print("Num 3 is the largest")
 
-    
-if not all_num:
-
-
-    if not num1_2:
-        if num1 > num2:
-            if num1 > num3:
-                print("Num 1 is the largest")
-            else:
-                print("Num 3 is the largest")
+else:
+    if num2 > num3:
+        print("Num 2 is the largest")
     else:
-        if not num1_2:
-            if num2 > num3:
-                print("Num 2 is the largest")
-            else:
-                print("Num 3 is the largest")
-        else:
-            print("The smallest spot it tied with num1 and num2")
+        print("Num 3 is the largest")
+
